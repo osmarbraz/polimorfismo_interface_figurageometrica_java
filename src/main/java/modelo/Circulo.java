@@ -1,3 +1,5 @@
+package modelo;
+
 
 public class Circulo extends FiguraGeometrica {
 
@@ -9,7 +11,7 @@ public class Circulo extends FiguraGeometrica {
 
     public Circulo(String cor, double raio) {
         super(cor);
-        setRaio(raio);
+        this.raio = raio;
     }
 
     public double getRaio() {

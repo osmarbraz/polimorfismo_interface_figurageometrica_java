@@ -1,5 +1,6 @@
+package modelo;
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica implements CalculoFigura {
 
     private String cor;
 
@@ -8,7 +9,7 @@ public abstract class FiguraGeometrica {
     }
 
     public FiguraGeometrica(String cor) {
-        setCor(cor);
+        this.cor = cor;
     }
 
     public String getCor() {
@@ -18,6 +19,4 @@ public abstract class FiguraGeometrica {
     public void setCor(String cor) {
         this.cor = cor;
     }
-
-    public abstract double getArea();
 }

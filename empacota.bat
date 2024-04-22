@@ -5,4 +5,4 @@ if not exist target\classes (
 )
 
 echo  *** Empacotando projeto ***
-jar cvfe .\target\Projeto.jar Principal -C target\classes\ .
+jar cvfe .\target\Projeto.jar principal.Principal -C target\classes\ .

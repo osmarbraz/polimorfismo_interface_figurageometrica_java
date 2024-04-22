@@ -1,9 +1,15 @@
+package principal;
+
+import modelo.CalculoFigura;
+import modelo.Circulo;
+import modelo.FiguraGeometrica;
+import modelo.Retangulo;
 
 public class Principal {
 
     public static void main(String[] args) {
 
-        FiguraGeometrica figuras[] = new FiguraGeometrica[4];
+        CalculoFigura figuras[] = new FiguraGeometrica[4];
         figuras[0] = new Retangulo("Branco", 2, 5);
         figuras[1] = new Circulo("Amarelo", 2);
         figuras[2] = new Retangulo("Azul", 4, 4);
